@@ -1,0 +1,30 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="jquerymain.js"></script>
+    <link rel="stylesheet" href="codeplayer.css" type="text/css" />
+  </head>
+  <body>
+    <div id="Topbar">
+      <div id="logo">CodePlayer</div>
+      <div id="buttonContainer">
+        <div class="toggleButton active" id="html">HTML</div>
+        <div class="toggleButton" id="css">CSS</div>
+        <div class="toggleButton" id="javascript">JavaScript</div>
+        <div class="toggleButton active" id="output">Output</div>
+      </div>
+    </div>
+    <div id="bodyContainer">
+      <textarea id="htmlTextarea" class="panel">hello world!</textarea>
+      <textarea id="cssTextarea" class="panel hidden">p{color:green}</textarea>
+      <textarea id="javascriptTextarea" class="panel hidden">
+alert("Hi there!") </textarea
+      >
+      <iframe id="outputTextarea" class="panel"></iframe>
+    </div>
+    <script type="text/javaScript" src="codeplayer.js"></script>
+  </body>
+</html>
